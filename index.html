@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="author" content="Eswara Sai (http://eswarasai.com)">
+		<meta name="description" content="">
+
+		<title>Login/Signup</title>
+
+		<!-- CSS-->
+		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+		<link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection">
+		<link href="css/sweetalert.css" type="text/css" rel="stylesheet" media="screen,projection">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+		<link href="css/responsive.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+		<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+
+	<body>
+		<main>
+			<div class="account-bg">
+				<div class="signup-bg"></div>
+				<div class="login-bg"></div>
+			</div>
+
+			<div id="account-form">
+				<div class="account-main">
+					<div class="signup">
+						<div id="ic">
+							<h4 class="center">Sign Up</h4>
+							<div class="row">
+								<div class="input-field col s12">
+									<a href="#" class="social-login-btn facebook hoverable"> <span>Facebook Signup</span></a>
+									<a href="#" class="social-login-btn google hoverable"> <span>Google Signup</span></a>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<div class="separator">
+										<span>OR</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<div class="error-box" id="signup-error">
+										<span class="error"></span>
+									</div>
+								</div>
+							</div>
+
+							<form class="col s12" id="signupForm">
+								<div class="row">
+									<div class="input-field col s6">
+										<input id="signupFirstname" name="signupFirstname" type="text">
+										<label for="signupFirstname">First Name</label>
+									</div>
+									<div class="input-field col s6">
+										<input id="signupLastname" name="signupLastname" type="text">
+										<label for="signupLastname">Last Name</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="signupEmail" name="signupEmail" type="email">
+										<label for="signupEmail">Email</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="signupPassword" name="signupPassword" type="password">
+										<label for="signupPassword">Password</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="signupConfirmPassword" type="password" name="signupConfirmPassword">
+										<label for="signupConfirmPassword">Confirm Password</label>
+									</div>
+								</div>
+							</form>
+
+							<div class="row">
+								<div class="col s12">
+									<button class="btn waves-effect waves-light" type="button" id="signup">Sign Up</button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<span class="blue-grey-text">Already have an account? <a href="#" id="allowLogin">Login</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="login">
+						<div id="ic" class="login-form">
+							<h4 class="center">Login</h4>
+							<div class="row">
+								<div class="input-field col s12">
+									<a href="#" class="social-login-btn facebook hoverable"> <span>Facebook Login</span></a>
+									<a href="#" class="social-login-btn google hoverable"> <span>Google Login</span></a>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<div class="separator">
+										<span>OR</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<div class="error-box animated zoomInLeft" id="login-error">
+										<span class="error"></span>
+									</div>
+								</div>
+							</div>
+
+							<form class="col s12" id="loginForm">
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="loginEmail" type="email" name="loginEmail" required="" aria-required="true">
+										<label for="loginEmail">Email</label>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="loginPassword" type="password" name="loginPassword" required="" aria-required="true">
+										<label for="loginPassword">Password</label>
+									</div>
+								</div>
+
+								<div class="row mt-20">
+									<div class="col s6">
+										<input type="checkbox" id="remember" />
+										<label for="remember">Remember me</label>
+									</div>
+									<div class="col s6">
+										<a href="#" class="right" id="forgot">Forgot your password?</a>
+									</div>
+								</div>
+							</form>
+
+							<div class="row">
+								<div class="col s12">
+									<button class="btn waves-effect waves-light" type="submit" id="login">Login</button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12">
+									<span class="blue-grey-text">Don't have an account? <a href="#" id="allowSignup">Sign Up</a></span>
+								</div>
+							</div>
+						</div>
+
+						<div id="ic" class="reset-form">
+							<h4 class="center">Reset Password</h4>
+							<form class="col s12" id="resetForm">
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="resetEmail" name="resetEmail" type="email" class="validate" value="">
+										<label for="resetEmail">Email</label>
+									</div>
+								</div>
+							</form>
+							<div class="row mt-20">
+								<div class="col s12">
+									<button class="btn waves-effect waves-light" type="button" id="reset">Reset</button>
+									<div class="success-box" id="reset-message">
+										<span class="success"></span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<span class="blue-grey-text"><a href="#" id="allowLoginFromReset">Back to Login</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!--  Scripts-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
