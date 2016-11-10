@@ -227,5 +227,6 @@ $(document).ready(function() {
 		}
 	});
 
-
+	$('#signup-carousel').carousel({full_width: true});
+	$('#login-carousel').carousel({full_width: true});
 });

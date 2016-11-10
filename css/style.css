@@ -100,24 +100,23 @@ html * {
     z-index: -9999;
 }
 
-.signup-bg {
+.signup-bg, .login-bg {
     position: absolute;
-    right: 0;
     width: 50%;
     height: 100%;
     background: #03A9F4;
     background-size: cover;
     background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-bg {
+    right: 0;
 }
 
 .login-bg {
-    position: absolute;
     left: 0;
-    width: 50%;
-    height: 100%;
-    background: #03A9F4;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #login-error, #signup-error, .reset-form, #reset-message {
@@ -193,4 +192,8 @@ html * {
     background-color: #F9F9F9;
     padding: 0 10px;
     color: #9E9E9E;
+}
+
+.carousel.carousel-slider {
+    align-self: center;
 }
