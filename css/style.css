@@ -1,199 +1,199 @@
 html * {
-   font-family: 'Montserrat', sans-serif; !important;
+  font-family: 'Montserrat', sans-serif; !important;
 }
 
 .mt-20 {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .error {
-	color: #EF5350;
-	display: block;
-	font-size: 13px;
+  color: #EF5350;
+  display: block;
+  font-size: 13px;
 }
 
 .success {
-	color: #66BB6A;
-	display: block;
-	font-size: 13px;
+  color: #66BB6A;
+  display: block;
+  font-size: 13px;
 }
 
 .error-box {
-	border: 1px solid #EF5350;
-	padding: 10px;
-	border-radius: 3px;
+  border: 1px solid #EF5350;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 .success-box {
-	border: 1px solid #66BB6A;
-	padding: 10px;
-	border-radius: 3px;
+  border: 1px solid #66BB6A;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 /* Account */
 #account-form {
-    width: 50%;
-    max-height: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin-left: 50%;
-    position: absolute;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #account-form label:after {
-	width: 300px;
-	top: 40px;
-    font-size: 0.8rem;
+  width: 300px;
+  top: 40px;
+  font-size: 0.8rem;
 }
 
 #account-form label.active:after {
-	width: 300px;
-	top: 65px;
-    font-size: 0.8rem;
+  width: 300px;
+  top: 65px;
+  font-size: 0.8rem;
 }
 
 .account-main {
-    width: 200%;
-    height: 100%;
-    position: relative;
-    left: 0;
-    left: -100%;
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  left: -100%;
 }
 
 .signup {
-    width: 50%;
-    height: 100%;
-    background: #F9F9F9;
-    left: 0;
-    position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #F9F9F9;
+  left: 0;
+  position: absolute;
 }
 
 .login {
-    width: 50%;
-    height: 100%;
-    background: #F9F9F9;
-    right: 0;
-    position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #F9F9F9;
+  right: 0;
+  position: absolute;
 }
 
 #ic {
-    width: 60%;
-    margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    margin-left: -200px;
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
 }
 
 #ic .row {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .account-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -9999;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -9999;
 }
 
 .signup-bg, .login-bg {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    background: #03A9F4;
-    background-size: cover;
-    background-position: 50% 50%;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #03A9F4;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .signup-bg {
-    right: 0;
+  right: 0;
 }
 
 .login-bg {
-    left: 0;
+  left: 0;
 }
 
 #login-error, #signup-error, .reset-form, #reset-message {
-	display: none;
+  display: none;
 }
 
 .social-login-btn {
-    background-position: 25px 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: inline-block;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    vertical-align: middle;
-    width: 100%;
-	border-radius: 3px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 13px 0px 20px 25px;
-    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
-	-webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+  background-position: 25px 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 3px;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 13px 0px 20px 25px;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .social-login-btn.facebook {
-	background: rgb(60, 90, 154) url('../img/facebook-white.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
-    border: 1px solid rgb(60, 90, 154);
+  background: rgb(60, 90, 154) url('../img/facebook-white.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  border: 1px solid rgb(60, 90, 154);
 }
 
 .social-login-btn.google {
-    margin-top: 15px;
-    background: rgb(220, 74, 61) url('../img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
-    border: 1px solid rgb(220, 74, 61);
+  margin-top: 15px;
+  background: rgb(220, 74, 61) url('../img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+  border: 1px solid rgb(220, 74, 61);
 }
 
 .social-login-btn span {
-    box-sizing: border-box;
-    color: #FFF;
-    cursor: pointer;
-    text-align: center;
-    text-transform: uppercase;
-    outline: rgb(255, 255, 255) none 0px;
-	-webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+  box-sizing: border-box;
+  color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 #facebook-connect span {
-    border: 0px none rgb(255, 255, 255);
+  border: 0px none rgb(255, 255, 255);
 }
 
 #google-connect span {
-    border: 0px none rgb(220, 74, 61);
+  border: 0px none rgb(220, 74, 61);
 }
 
 .separator {
-	width: 100%;
-    height: 15px;
-    border-bottom: 1px solid #9E9E9E;
-    text-align: center;
-	margin: 10px auto;
+  width: 100%;
+  height: 15px;
+  border-bottom: 1px solid #9E9E9E;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .separator span {
-	font-size: 18px;
-    background-color: #F9F9F9;
-    padding: 0 10px;
-    color: #9E9E9E;
+  font-size: 18px;
+  background-color: #F9F9F9;
+  padding: 0 10px;
+  color: #9E9E9E;
 }
 
 .carousel.carousel-slider {
-    align-self: center;
+  align-self: center;
 }

@@ -1,44 +1,44 @@
 /* Reference: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints */
 
-@media only screen  and (min-width : 1025px) and (max-width : 1280px) {
-    #ic {
-        width: 70%;
-        margin-left: -215px;
-    }
+@media only screen  and (min-width: 1025px) and (max-width: 1280px) {
+  #ic {
+    width: 70%;
+    margin-left: -215px;
+  }
 }
 
-@media only screen and (min-width : 769px) and (max-width: 1024px) {
-    #ic {
-        width: 85%;
-    }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #ic {
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .account-bg {
-        display: none;
-    }
+  .account-bg {
+    display: none;
+  }
 
-    #account-form {
-        width: 100%;
-        margin-left: 0;
-    }
+  #account-form {
+    width: 100%;
+    margin-left: 0;
+  }
 
-    #ic {
-        width: 75%;
-        position: static;
-        left: 0;
-        margin-left: auto;
-    }
+  #ic {
+    width: 75%;
+    position: static;
+    left: 0;
+    margin-left: auto;
+  }
 }
 
-@media only screen  and (max-width : 500px) {
-    #ic {
-        width: 90%;
-    }
+@media only screen  and (max-width: 500px) {
+  #ic {
+    width: 90%;
+  }
 }
 
-@media screen and ( max-height: 670px ){
-    .login, .signup {
-        overflow-y: scroll;
-    }
+@media screen and ( max-height: 670px ) {
+  .login, .signup {
+    overflow-y: scroll;
+  }
 }
